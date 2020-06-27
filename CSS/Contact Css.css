@@ -1,0 +1,231 @@
+body {
+  background-image: url("/The Revivals/CI.jpg");
+  background-repeat: no-repeat;
+  margin: 5px;
+  position: relative;
+  background-size: cover;
+  background-attachment: scroll;
+  height: auto;
+}
+
+.modal {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 5px;
+  color: #333;
+  font-family: sans-serif;
+  line-height: 1.5;
+  max-width: 50%;
+  padding: 2rem 2rem;
+  a {
+    color: #bf0222;
+  }
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .modal {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);  
+  }
+.section {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.form {
+	max-width: : 450px;
+	font-size: 16px;
+	background: #495C70;
+	padding: 30px 30px 15px 30px;
+	border: 5px solid #53687E;
+}
+.form h1{
+	text-align: left;
+	font-family: Segoe Script;
+	color: white;
+}
+.form h1>span{
+
+	text-align: left;
+	margin-left: 200;
+	font-family: Segoe Script;
+	font-size: 20px;
+	color: white;
+
+}
+.form input[type=submit],
+.form input[type=button],
+.form input[type=text],
+.form input[type=email],
+.form textarea,
+.form label
+{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	color: #fff;
+
+}
+.form label {
+	display:block;
+	margin-bottom: 10px;
+}
+.form label > span{
+	display: inline-block;
+	float: left;
+	width: 150px;
+}
+.form input[type=text],
+.form input[type=email] 
+{
+	background: transparent;
+	border: none;
+	border-bottom: 1px dashed #83A4C5;
+	width: 275px;
+	outline: none;
+	padding: 0px 0px 0px 0px;
+	font-style: italic;
+}
+.form textarea{
+	font-style: italic;
+	padding: 0px 0px 0px 0px;
+	background: transparent;
+	outline: none;
+	border: none;
+	border-bottom: 1px dashed #83A4C5;
+	width: 275px;
+	overflow: hidden;
+	resize:none;
+	height:20px;
+}
+
+.form textarea:focus, 
+.form input[type=text]:focus,
+.form input[type=email]:focus,
+.form input[type=email] :focus
+{
+	border-bottom: 1px dashed #D9FFA9;
+}
+
+.form input[type=submit],
+.form input[type=button]{
+	background: #576E86;
+	border: none;
+	padding: 8px 10px 8px 10px;
+	border-radius: 5px;
+	color: #A8BACE;
+}
+.form input[type=submit]:hover,
+.form input[type=button]:hover{
+background: #394D61;
+}
+
+.form label .button {
+	background: orange;
+	border: none;
+	padding: 10px 25px 10px 25px;
+	color: #585858;
+	margin-left: 200px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	text-shadow: 1px 1px 1px #FFE477;
+	font-weight: bold;
+	box-shadow: 1px 1px 1px #3D3D3D;
+	-webkit-box-shadow:1px 1px 1px #3D3D3D;
+	-moz-box-shadow:1px 1px 1px #3D3D3D;
+}
+
+.form  label .button:hover {
+    color: #333;
+    background-color: #EBEBEB;
+}
+
+.container {
+  margin: 40px 20px 0px 20px;
+  text-align: center;
+}
+.effect {
+  max-width: 90%;
+  padding: 00px 0px 30px 0px;
+  background-color: #212121;
+  color: #fff;
+  margin-top: 5px;
+  margin-left: 30px;
+  border-radius: 5px;
+}
+
+.buttons {
+    margin-top: 10px;
+    margin-bottom:0px;
+    display: flex;
+    justify-content: center;
+}
+.effect {
+   display: flex;
+} 
+
+.effect a{
+	text-decoration: none;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top:5px;
+    margin-bottom:5px;
+    font-size: 25px;
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+    border: 2px solid #fff; 
+} 
+
+.effect a i{
+
+      position: relative;
+      z-index: 3;
+}
+
+.effect a:before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.effect a i {
+  display: inline-block;
+  vertical-align: middle;
+}
+.effect.varrius a {
+  -webkit-transition: all 0.2s linear 0s;
+  transition: all 0.2s linear 0s;
+}
+.effect.varrius a:after {
+  content: "";
+  display: block;
+  width: 90%;
+  height: 90%;
+  top: -110%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.effect.varrius a:hover {
+  color: #212121;
+}
+.effect.varrius a:hover:after {
+  top: 5%;
+  -webkit-transition: all 0.2s linear 0s;
+  transition: all 0.2s linear 0s;
+}
+
+
+
+
