@@ -48,7 +48,7 @@ body,html{
 }  
 @font-face{
   font-family: 'Metal-mania';
-  src:url('/The Revivals/Fonts/MetalMania-Regular.ttf');
+  src:url('/The_Revivals/fonts/metalmania-regular.ttf');
 }
 .bg1,.malcolm,.sumedh,.noel,.shriyans,.shubham,.kshitij,.abhilesh,.adithya,.kushal{
   position: relative;
@@ -62,48 +62,48 @@ body,html{
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("/The Revivals/Artist/Art1.jpg");
+  background-image: url("/The_Revivals/artist/art1.jpg");
   min-height: 100%;
 }
 .bg1{
-  background-image: url("/The Revivals/Artist/BG.jpg");
+  background-image: url("/The_Revivals/artist/bg.jpg");
   min-height: 200px;
   opacity: 0.65;
 }
 .malcolm{
-  background-image: url("/The Revivals/Artist/Malcolm.jpg");
+  background-image: url("/The_Revivals/artist/malcolm.jpg");
   min-height: 400px;
 }
 .sumedh{
-  background-image: url("/The Revivals/Artist/Sumedh.jpg");
+  background-image: url("/The_Revivals/artist/sumedh.jpg");
   min-height: 400px;
 }
 .noel{
-  background-image: url("/The Revivals/Artist/Noel.jpg");
+  background-image: url("/The_Revivals/artist/noel.jpg");
   min-height: 400px;
 }
 .shriyans{
-  background-image: url("/The Revivals/Artist/Shriyans.jpg");
+  background-image: url("/The_Revivals/artist/shriyans.jpg");
   min-height: 400px;
 }
 .shubham{
-  background-image: url("/The Revivals/Artist/Shubham.jpg");
+  background-image: url("/The_Revivals/artist/shubham.jpg");
   min-height: 400px;
 }
 .kshitij{
-  background-image: url("/The Revivals/Artist/Kshitij.jpg");
+  background-image: url("/The_Revivals/artist/kshitij.jpg");
   min-height: 400px;
 }
 .abhilesh{
-  background-image: url("/The Revivals/Artist/Abhilesh.jpg");
+  background-image: url("/The_Revivals/artist/abhilesh.jpg");
   min-height: 400px;
 }
 .adithya{
-  background-image: url("/The Revivals/Artist/Adithya.jpg");
+  background-image: url("/The_Revivals/artist/adithya.jpg");
   min-height: 400px;
 }
 .kushal{
-  background-image: url("/The Revivals/Artist/Kushal.jpg");
+  background-image: url("/The_Revivals/artist/kushal.jpg");
   min-height: 400px;
 }
 blockquote {
