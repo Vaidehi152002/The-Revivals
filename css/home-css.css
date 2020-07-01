@@ -9,8 +9,10 @@ body,html{
 	  height: auto;
 	  border-top-left-radius: 5px;
 	  border-top-right-radius: 5px;
-	  margin-left: 40px;
-	  margin-top: -60px;	
+	  margin-top: -60px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;	
 }
 
 .controls .btn{
@@ -23,7 +25,7 @@ body,html{
   color: purple;
   font-size: 16px;
   padding: 5px 20px;
-  margin-left: 100px;
+  margin-left: 150px;
   border: none;
   cursor: pointer;
   border-radius: 15px;
@@ -33,7 +35,7 @@ body,html{
 }
 @media only screen and (max-width:800px) {
 	#cover{
-		width: 80%;
+		width: 100%;
         padding: 0;
 	}
 }

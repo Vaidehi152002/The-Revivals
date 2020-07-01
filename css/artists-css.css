@@ -48,7 +48,7 @@ body,html{
 }  
 @font-face{
   font-family: 'Metal-mania';
-  src:url('./fonts/metalmania-regular.ttf');
+  src:url('../fonts/metalmania-regular.ttf');
 }
 .bg1,.malcolm,.sumedh,.noel,.shriyans,.shubham,.kshitij,.abhilesh,.adithya,.kushal{
   position: relative;
@@ -64,6 +64,7 @@ body,html{
   background-size: cover;
   background-image: url("../artist/Art1.jpg");
   min-height: 100%;
+  width: 100%
 }
 .bg1{
   background-image: url("../artist/BG.jpg");
@@ -138,3 +139,4 @@ blockquote p {
 .fa-instagram:hover{
    opacity: 0.7;
 }
+

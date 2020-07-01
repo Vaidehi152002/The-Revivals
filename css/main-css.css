@@ -14,8 +14,8 @@ ul{
 	margin: 0;
 }
 li{
-	text-align: left;
-	display: inline;
+	text-align: center;
+	display: inline-block;
 }
 div.container
 {
@@ -48,7 +48,7 @@ div.container a
     border-radius: 10px;
 }
 
-div.borderYtoX a:before, div.borderYtoX a:after
+nav.borderYtoX a:before, nav.borderYtoX a:after
 {
     position: absolute;
     opacity: 0.5;
@@ -59,29 +59,36 @@ div.borderYtoX a:before, div.borderYtoX a:after
     transition: all 0.3s;
 }
 
-div.borderYtoX a:before
+nav.borderYtoX a:before
 {
     left: 0px;
     top: 0px;
 }
 
-div.borderYtoX a:after
+nav.borderYtoX a:after
 {
     right: 0px;
     bottom: 0px;
 }
 
-div.borderYtoX a:hover:before, div.borderYtoX a:hover:after
+nav.borderYtoX a:hover:before, nav.borderYtoX a:hover:after
 {
     opacity: 1;
     height: 2px;
     width: 100%;
 }
-div>marquee{
+nav>marquee{
     font-size: 23px;
     color: blue;
 }
 
+.mar{
+    font-size: 3vh;
+    margin-top: 10px;
+    color: black;
+
+
+}
 .footer{
     background-color: #f24ecc;
     left: 0;
@@ -90,5 +97,27 @@ div>marquee{
     font-size: 20px;
     color: white;
     text-align: center;
-    margin-bottom: -10px;
+}
+
+
+
+{
+    nav.borderYtoX a:before, nav.borderYtoX a:after{
+        display: none;
+    }
+
+    .nav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
 }
